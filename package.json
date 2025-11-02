@@ -1,0 +1,29 @@
+{
+  "name": "wuwu",
+  "version": "1.0.0",
+  "description": "A github pet who evolves with me.",
+  "keywords": [
+    "Pet",
+    "Github",
+    "Wuwu"
+  ],
+  "homepage": "https://github.com/nishuR31/wuwu#readme",
+  "bugs": {
+    "url": "https://github.com/nishuR31/wuwu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishuR31/wuwu.git"
+  },
+  "license": "ISC",
+  "author": "nishuR31",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "dayjs": "^1.11.19"
+  }
+}
