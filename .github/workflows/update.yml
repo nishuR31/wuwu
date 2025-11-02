@@ -1,0 +1,40 @@
+name: Update Wuwu Pet
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # Every day at 12:00 UTC
+  workflow_dispatch:     # Manual trigger
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name:  Checkout repository
+        uses: actions/checkout@v4
+
+      - name:  Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name:  Install dependencies
+        run: |
+          npm ci || npm install
+
+      - name: 🐾 Run Wuwu updater
+        run: node src/index.js
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAIN_REPO: "nishuR31/nishuR31"
+
+      - name:  Commit & push changes
+        run: |
+          git config user.name "wuwu-bot"
+          git config user.email "bot@noreply.github.com"
+
+          git add data/wuwu.json README.md
+          git diff --cached --quiet || git commit -m "🌀 Wuwu update: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
