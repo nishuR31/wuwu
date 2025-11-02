@@ -30,11 +30,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAIN_REPO: "nishuR31/nishuR31"
 
-      - name:  Commit & push changes
+      - name: Commit & Push changes
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "wuwu-bot"
           git config user.email "bot@noreply.github.com"
-
-          git add data/wuwu.json README.md
-          git diff --cached --quiet || git commit -m "🌀 Wuwu update: $(date +'%Y-%m-%d %H:%M:%S')"
+          git add data/
+          git commit -m "Wuwu update $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
           git push
+          
