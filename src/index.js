@@ -81,11 +81,15 @@ function updateReadme() {
   const petImg = fs.existsSync(svgFile) ? svgFile : "assets/wuwu.svg";
 
   const content = `
-# 🐾 Meet Wuwu
+# Meet Wuwu
 
 <p align="center">
-  <img src="./${petImg}" width="180" />
+  <img src="./${petImg}" width="180" alt="Wuwu's current mood: ${state.status.mood}" />
 </p>
+
+---
+
+### Current Stats
 
 | Attribute | Value |
 |------------|--------|
@@ -99,12 +103,39 @@ function updateReadme() {
 
 ---
 
-> *Wuwu learns from my code activity and evolves with my GitHub life!*
+### Activity Insights
+| Metric | Value |
+|---------|-------|
+| **Commits Today** | ${state.activity?.commitsToday || "—"} |
+| **Followers** | ${state.activity?.followers || "—"} |
+| **Stars on Main Repo** | ${state.activity?.stars || "—"} |
+| **Public Repos** | ${state.activity?.totalRepos || "—"} |
+
+---
+
+###  About Wuwu
+> Wuwu evolves from my GitHub life — commits feed its mind, stars fuel its energy, and followers shape its personality.  
+> The more I build, the smarter and stronger Wuwu grows.
+
+---
+
+<p align="center">
+  <sub>Updated automatically by [GitHub Actions](.github/workflows/wuwu.yml)</sub>
+</p>
 `;
 
+  // Store latest activity snapshot for future stats section
+  state.activity = {
+    commitsToday: state.activity?.commitsToday ?? 0,
+    followers: state.activity?.followers ?? 0,
+    stars: state.activity?.stars ?? 0,
+    totalRepos: state.activity?.totalRepos ?? 0,
+  };
+
   fs.writeFileSync(readmeFile, content.trim());
-  console.log("README updated successfully.");
+  console.log("README updated successfully with richer layout.");
 }
+
 
 /* === RUN === */
 (async () => {
