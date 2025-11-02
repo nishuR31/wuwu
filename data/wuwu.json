@@ -3,16 +3,14 @@
   "owner": "nishuR31",
   "profile": "https://github.com/nishuR31",
   "bio_source": "Learn. Code. Evolve. Enhance. Create. Repeat. Growth rukni ni chahiye mittar.",
-  
   "status": {
-    "health": 88,
-    "mood": "Curious 🌀",
+    "health": 84,
+    "mood": "curious",
     "age_months": 14,
-    "intelligence": 91,
-    "knowledge": 77,
-    "food": 62
+    "intelligence": 92,
+    "knowledge": 78,
+    "food": 77
   },
-  
   "activity_metrics": {
     "repos": 67,
     "followers": 32,
@@ -21,22 +19,19 @@
     "recent_commits_30d": 0,
     "last_push_at": "2025-11-02T17:40:42.000Z"
   },
-  
   "language_affinity": {
     "JavaScript": 0.35,
     "Python": 0.25,
     "HTML": 0.15,
     "TypeScript": 0.15,
-    "CSS": 0.10
+    "CSS": 0.1
   },
-  
   "dynamic_traits": {
     "learning_rate": 0.92,
     "curiosity": 0.87,
     "creativity": 0.78,
     "discipline": 0.69
   },
-  
   "mood_engine": {
     "happy": "Active commit streaks or new repos",
     "bored": "No commits for 7+ days",
@@ -46,17 +41,14 @@
     "excited": "New project created",
     "calm": "Steady growth, consistent coding"
   },
-  
   "aging": {
     "current_age_months": 14,
     "growth_rate_per_month": 1,
     "next_age_update": "2025-12-02"
   },
-  
   "assets": {
     "avatar_svg": "./assets/wuwu.svg",
     "status_badge": "./assets/badges/status.svg"
   },
-  
-  "last_updated": "2025-11-02T18:45:00.000Z"
+  "last_updated": "2025-11-02T19:03:35.965Z"
 }
