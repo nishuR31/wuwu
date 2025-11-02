@@ -119,9 +119,10 @@ function updateReadme() {
 
 ---
 
-<p align="center">
-  <sub>Updated automatically by [GitHub Actions](.github/workflows/wuwu.yml)</sub>
-</p>
+Updated automatically by:-
+
+[GitHub Actions](.github/workflows/wuwu.yml)
+
 `;
 
   // Store latest activity snapshot for future stats section
