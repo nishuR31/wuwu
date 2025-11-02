@@ -29,17 +29,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAIN_REPO: "nishuR31/nishuR31"
-      - name: Commit & Push changes
+    
+      - name: Commit and push changes
         run: |
+          git config --global user.name "wuwu-bot"
+          git config --global user.email "bot@noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config user.name "wuwu-bot"
-          git config user.email "bot@noreply.github.com"
 
-          git add .
-          git commit -m "Wuwu update $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          
-          # Sync with remote before pushing
           git pull --rebase origin main || true
-          git push origin main
+          git add README.md data/wuwu.json
+          git commit -m "Wuwu update $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push origin main || (git pull --rebase origin main && git push origin main)
           
           
