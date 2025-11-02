@@ -14,9 +14,9 @@
 | **Mood** | curious |
 | **Health** | 97% |
 | **Food** | 100% |
-| **Intelligence** | 94% |
-| **Knowledge** | 80% |
-| **Last Updated** | 2025-11-02 19:25 |
+| **Intelligence** | 95% |
+| **Knowledge** | 81% |
+| **Last Updated** | 2025-11-02 19:40 |
 
 ---
 
@@ -36,6 +36,6 @@
 
 ---
 
-<p align="center">
-  <sub>Updated automatically by [GitHub Actions](.github/workflows/wuwu.yml)</sub>
-</p>
+Updated automatically by:-
+
+[GitHub Actions](.github/workflows/wuwu.yml)

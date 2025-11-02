@@ -7,8 +7,8 @@
     "health": 97,
     "mood": "curious",
     "age_months": 14,
-    "intelligence": 94,
-    "knowledge": 80,
+    "intelligence": 95,
+    "knowledge": 81,
     "food": 100
   },
   "activity_metrics": {
@@ -50,5 +50,5 @@
     "avatar_svg": "./assets/wuwu.svg",
     "status_badge": "./assets/badges/status.svg"
   },
-  "last_updated": "2025-11-02T19:25:46.240Z"
+  "last_updated": "2025-11-02T19:40:33.625Z"
 }
