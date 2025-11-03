@@ -12,11 +12,11 @@
 |------------|--------|
 | **Age** | 14 months |
 | **Mood** | curious |
-| **Health** | 97% |
-| **Food** | 100% |
+| **Health** | 95% |
+| **Food** | 95% |
 | **Intelligence** | 95% |
-| **Knowledge** | 81% |
-| **Last Updated** | 2025-11-02 19:40 |
+| **Knowledge** | 82% |
+| **Last Updated** | 2025-11-03 12:42 |
 
 ---
 
