@@ -4,12 +4,12 @@
   "profile": "https://github.com/nishuR31",
   "bio_source": "Learn. Code. Evolve. Enhance. Create. Repeat. Growth rukni ni chahiye mittar.",
   "status": {
-    "health": 80,
+    "health": 77,
     "mood": "curious",
     "age_months": 14,
     "intelligence": 95,
-    "knowledge": 88,
-    "food": 65
+    "knowledge": 89,
+    "food": 60
   },
   "activity_metrics": {
     "repos": 67,
@@ -50,5 +50,5 @@
     "avatar_svg": "./assets/wuwu.svg",
     "status_badge": "./assets/badges/status.svg"
   },
-  "last_updated": "2025-11-09T12:36:58.563Z"
+  "last_updated": "2025-11-10T12:42:45.187Z"
 }
