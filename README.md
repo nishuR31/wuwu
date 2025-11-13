@@ -1,7 +1,7 @@
 # Meet Wuwu
 
 <p align="center">
-  <img src="./assets/curious.svg" width="180" alt="Wuwu's current mood: curious" />
+  <img src="./assets/tired.svg" width="180" alt="Wuwu's current mood: tired" />
 </p>
 
 ---
@@ -11,12 +11,12 @@
 | Attribute | Value |
 |------------|--------|
 | **Age** | 14 months |
-| **Mood** | curious |
-| **Health** | 72% |
-| **Food** | 50% |
+| **Mood** | tired |
+| **Health** | 70% |
+| **Food** | 45% |
 | **Intelligence** | 95% |
-| **Knowledge** | 91% |
-| **Last Updated** | 2025-11-12 12:42 |
+| **Knowledge** | 92% |
+| **Last Updated** | 2025-11-13 12:44 |
 
 ---
 
