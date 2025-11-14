@@ -12,11 +12,11 @@
 |------------|--------|
 | **Age** | 14 months |
 | **Mood** | tired |
-| **Health** | 70% |
-| **Food** | 45% |
+| **Health** | 67% |
+| **Food** | 40% |
 | **Intelligence** | 95% |
-| **Knowledge** | 92% |
-| **Last Updated** | 2025-11-13 12:44 |
+| **Knowledge** | 93% |
+| **Last Updated** | 2025-11-14 12:41 |
 
 ---
 
